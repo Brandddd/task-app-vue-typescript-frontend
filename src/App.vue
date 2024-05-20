@@ -1,4 +1,4 @@
-<template><h1>Hello world!</h1></template>
+<template><router-view /></template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
