@@ -20,7 +20,6 @@ export default defineComponent({
     async loadTaks() {
       const response = await getTask();
       this.tasks = response?.data;
-      console.log("data:", response);
     },
   },
   mounted() {
